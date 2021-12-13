@@ -1,4 +1,10 @@
-
+openapi: 3.0.0
+info:
+  version: 'v1'
+  title: 'Pheedloop-API'
+servers:
+  - url: 'localhost:3000000'
+paths:
   /user:
     get:
       summary: 'Sample endpoint: Returns details about a particular user'
