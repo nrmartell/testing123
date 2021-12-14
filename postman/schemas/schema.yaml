@@ -1,12 +1,12 @@
 
 paths:
-  /user:
+  /usersssssss:
     get:
       summary: 'Sample endpoint: Returns details about a particular user'
       operationId: listUser
       tags:
         - user
-      parameters:
+      paaaaaarameters:
         - name: id
           in: query
           description: ID of the user
