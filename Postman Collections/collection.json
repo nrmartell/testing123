@@ -1,0 +1,348 @@
+{
+	"info": {
+		"_postman_id": "03fa5980-b05b-4f5c-b729-b8ea4c8f281a",
+		"name": "Discogs",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Authentication",
+			"item": [
+				{
+					"name": "New Request",
+					"_postman_id": "d36c5df0-6d37-4ed5-b8ae-669f30805b7d",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": null
+					},
+					"response": []
+				}
+			],
+			"_postman_id": "8a1a7853-25e7-4f9c-ad44-1c5b5e031112",
+			"description": "Visit [https://www.discogs.com/developers/#page:authentication](https://www.discogs.com/developers/#page:authentication) for full documentation.",
+			"event": [
+				{
+					"listen": "prerequest",
+					"script": {
+						"id": "57a3d53d-f2aa-46a6-8e6a-3f04110b81d9",
+						"type": "text/javascript",
+						"exec": [
+							""
+						]
+					}
+				},
+				{
+					"listen": "test",
+					"script": {
+						"id": "f32e2be4-e6ba-478f-8912-fe718d70205e",
+						"type": "text/javascript",
+						"exec": [
+							""
+						]
+					}
+				}
+			]
+		},
+		{
+			"name": "Authentication Copy",
+			"item": [],
+			"_postman_id": "0e22b307-ea11-4530-aa8d-128dedf84f58",
+			"description": "Visit [https://www.discogs.com/developers/#page:authentication](https://www.discogs.com/developers/#page:authentication) for full documentation.",
+			"event": [
+				{
+					"listen": "prerequest",
+					"script": {
+						"id": "57a3d53d-f2aa-46a6-8e6a-3f04110b81d9",
+						"type": "text/javascript",
+						"exec": [
+							""
+						]
+					}
+				},
+				{
+					"listen": "test",
+					"script": {
+						"id": "f32e2be4-e6ba-478f-8912-fe718d70205e",
+						"type": "text/javascript",
+						"exec": [
+							""
+						]
+					}
+				}
+			]
+		},
+		{
+			"name": "Database",
+			"item": [],
+			"_postman_id": "5e6a2c7b-4390-4270-a03c-a849328faa78",
+			"description": "Visit [https://www.discogs.com/developers/#page:database](https://www.discogs.com/developers/#page:database) for full documentation.",
+			"event": [
+				{
+					"listen": "prerequest",
+					"script": {
+						"id": "7eb432f6-c4d5-477e-9c71-78926cc2dc47",
+						"type": "text/javascript",
+						"exec": [
+							""
+						]
+					}
+				},
+				{
+					"listen": "test",
+					"script": {
+						"id": "b15e925d-d4be-479c-8925-edf7c1b35738",
+						"type": "text/javascript",
+						"exec": [
+							""
+						]
+					}
+				}
+			]
+		},
+		{
+			"name": "Marketplace",
+			"item": [],
+			"_postman_id": "32530a22-6beb-43e1-b423-2ef28d58cec1",
+			"description": "Visit [https://www.discogs.com/developers/#page:marketplace](https://www.discogs.com/developers/#page:marketplace) for full documentation.",
+			"event": [
+				{
+					"listen": "prerequest",
+					"script": {
+						"id": "f32b29a5-35ef-48eb-9f90-d2c80a8f0a6c",
+						"type": "text/javascript",
+						"exec": [
+							""
+						]
+					}
+				},
+				{
+					"listen": "test",
+					"script": {
+						"id": "da7af9fd-833b-40f3-9ebe-6161709d852a",
+						"type": "text/javascript",
+						"exec": [
+							""
+						]
+					}
+				}
+			]
+		},
+		{
+			"name": "Inventory Export",
+			"item": [],
+			"_postman_id": "f84a7552-4209-490f-92a4-37c7c66865ff",
+			"description": "Visit [https://www.discogs.com/developers/#page:inventory-export](https://www.discogs.com/developers/#page:inventory-export) for full documentation.",
+			"event": [
+				{
+					"listen": "prerequest",
+					"script": {
+						"id": "da66c2fb-288e-4f4e-b7ff-2f6c3ad2e273",
+						"type": "text/javascript",
+						"exec": [
+							""
+						]
+					}
+				},
+				{
+					"listen": "test",
+					"script": {
+						"id": "f81c8f0c-b08c-48dd-aeb4-66b3786352aa",
+						"type": "text/javascript",
+						"exec": [
+							""
+						]
+					}
+				}
+			]
+		},
+		{
+			"name": "Inventory Upload",
+			"item": [],
+			"_postman_id": "e8fb3440-c460-4240-b18b-fdd0c7862d75",
+			"description": "Visit [https://www.discogs.com/developers/#page:inventory-upload](https://www.discogs.com/developers/#page:inventory-upload) for full documentation.",
+			"event": [
+				{
+					"listen": "prerequest",
+					"script": {
+						"id": "b1bb13c6-c09b-423a-95f7-bb8aabf26bf4",
+						"type": "text/javascript",
+						"exec": [
+							""
+						]
+					}
+				},
+				{
+					"listen": "test",
+					"script": {
+						"id": "187b2999-defb-4f4b-bd8f-3cc18878f695",
+						"type": "text/javascript",
+						"exec": [
+							""
+						]
+					}
+				}
+			]
+		},
+		{
+			"name": "User identity",
+			"item": [],
+			"_postman_id": "9071bedc-b863-4318-a5ea-8bb1d08c8773",
+			"description": "Visit [https://www.discogs.com/developers/#page:user-identity](https://www.discogs.com/developers/#page:user-identity) for full documentation.",
+			"event": [
+				{
+					"listen": "prerequest",
+					"script": {
+						"id": "42dc78be-b60a-40ca-a177-440bb9049097",
+						"type": "text/javascript",
+						"exec": [
+							""
+						]
+					}
+				},
+				{
+					"listen": "test",
+					"script": {
+						"id": "9ad150bf-9850-4560-8ae8-438c624d86f7",
+						"type": "text/javascript",
+						"exec": [
+							""
+						]
+					}
+				}
+			]
+		},
+		{
+			"name": "User Collection",
+			"item": [],
+			"_postman_id": "3030396f-7e50-406a-b48b-ff8833e26804",
+			"description": "Visit [https://www.discogs.com/developers/#page:user-collection](https://www.discogs.com/developers/#page:user-collection) for full documentation.",
+			"event": [
+				{
+					"listen": "prerequest",
+					"script": {
+						"id": "0b9a14a0-41f5-4bd1-a4a3-647d822d4296",
+						"type": "text/javascript",
+						"exec": [
+							""
+						]
+					}
+				},
+				{
+					"listen": "test",
+					"script": {
+						"id": "04b5dd04-f11b-4704-b4e6-d2dd1f7007e0",
+						"type": "text/javascript",
+						"exec": [
+							""
+						]
+					}
+				}
+			]
+		},
+		{
+			"name": "User Wantlist",
+			"item": [],
+			"_postman_id": "11cba49f-e6ab-4117-aa35-18a01e4c5ed8",
+			"description": "Visit [https://www.discogs.com/developers/#page:user-wantlist](https://www.discogs.com/developers/#page:user-wantlist) for full documentation.",
+			"event": [
+				{
+					"listen": "prerequest",
+					"script": {
+						"id": "99e03da2-0979-4be4-9c0b-dcca18609d0e",
+						"type": "text/javascript",
+						"exec": [
+							""
+						]
+					}
+				},
+				{
+					"listen": "test",
+					"script": {
+						"id": "de89ac13-fbba-4900-a5a8-c135cccee689",
+						"type": "text/javascript",
+						"exec": [
+							""
+						]
+					}
+				}
+			]
+		},
+		{
+			"name": "User Lists",
+			"item": [],
+			"_postman_id": "32db605d-3dae-4b91-90b8-0a3d5f6f2fd7",
+			"description": "Visit [https://www.discogs.com/developers/#page:user-lists](https://www.discogs.com/developers/#page:user-lists) for full documentation.",
+			"event": [
+				{
+					"listen": "prerequest",
+					"script": {
+						"id": "8257cd55-7058-462c-8ff6-a28af3db9ec7",
+						"type": "text/javascript",
+						"exec": [
+							""
+						]
+					}
+				},
+				{
+					"listen": "test",
+					"script": {
+						"id": "18002f83-20bf-48ad-8c7c-4bd18697fbe5",
+						"type": "text/javascript",
+						"exec": [
+							""
+						]
+					}
+				}
+			]
+		}
+	],
+	"auth": {
+		"type": "oauth1",
+		"oauth1": {
+			"consumerSecret": "{{consumer_secret}}",
+			"consumerKey": "{{consumer_key}}",
+			"nonce": "{{$guid}}",
+			"timestamp": "{{$timestamp}}",
+			"addParamsToHeader": true,
+			"signatureMethod": "PLAINTEXT",
+			"tokenSecret": "{{oauth_token_secret}}",
+			"token": "{{oauth_token}}",
+			"version": "1.0",
+			"addEmptyParamsToSign": false
+		}
+	},
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"id": "00ed4885-8079-42e4-adcd-19eb6e0155e6",
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"id": "4b92cb18-01c3-493f-8fc1-b2bde6f40c44",
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"id": "d7e8c920-51f7-4e6d-9a2d-06fa282b931c",
+			"key": "baseUrl",
+			"value": "http://localhost:3000",
+			"type": "string"
+		}
+	]
+}
